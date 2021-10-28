@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+            If you want to ask me any questions,
+              then you are welcome to fill out this form!
+          </span>
+    </h2>
+    <div class="contact__form-container">
+        <form action="#" name="contact" data-netlify="true" class="contact__form">
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input
+                        class="contact__form-input"
+                        id="name"
+                        name="name"
+                        placeholder="What's Your Name"
+                        required
+                        type="text"
+                />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input
+                        class="contact__form-input"
+                        id="email"
+                        name="email"
+                        placeholder="What's Your Email"
+                        required
+                        type="text"
+                />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea
+                        class="contact__form-input"
+                        cols="30"
+                        id="message"
+                        name="message"
+                        placeholder="What's Your Message"
+                        required
+                        rows="10"
+                ></textarea>
+            </div>
+            <button class="btn btn--theme contact__btn" type="submit">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
