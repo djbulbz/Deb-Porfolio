@@ -2,58 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Deborah Balthazar - Contact</title>
+    <!-- CSS only -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" rel="stylesheet">
+    <link href="../Styles/styles.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-        <span class="heading-sec__sub heading-sec__sub--lt">
+
+<!-- Navbar -->
+<nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">Deborah J Balthazar</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./my-works.html">My Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Hero section -->
+<section class="hero">
+    <div class="container">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span><br>
+                <span class="heading-sec__sub heading-sec__sub--lt">
             If you want to ask me any questions,
               then you are welcome to fill out this form!
           </span>
-    </h2>
-    <div class="contact__form-container">
-        <form action="#" name="contact" data-netlify="true" class="contact__form">
-            <div class="contact__form-field">
-                <label class="contact__form-label" for="name">Name</label>
-                <input
-                        class="contact__form-input"
-                        id="name"
-                        name="name"
-                        placeholder="What's Your Name"
-                        required
-                        type="text"
-                />
+            </h2>
+            <div class="contact__form-container">
+                <form action="#" class="contact__form" data-netlify="true" name="contact">
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="name">Name</label>
+                        <input
+                                class="contact__form-input"
+                                id="name"
+                                name="name"
+                                placeholder="What's Your Name"
+                                required
+                                type="text"
+                        />
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="email">Email</label>
+                        <input
+                                class="contact__form-input"
+                                id="email"
+                                name="email"
+                                placeholder="What's Your Email"
+                                required
+                                type="text"
+                        />
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="message">Message</label>
+                        <textarea
+                                class="contact__form-input"
+                                cols="30"
+                                id="message"
+                                name="message"
+                                placeholder="What's Your Message"
+                                required
+                                rows="10"
+                        ></textarea>
+                    </div>
+                    <button class="btn btn--theme contact__btn" type="submit">
+                        Submit
+                    </button>
+                </form>
             </div>
-            <div class="contact__form-field">
-                <label class="contact__form-label" for="email">Email</label>
-                <input
-                        class="contact__form-input"
-                        id="email"
-                        name="email"
-                        placeholder="What's Your Email"
-                        required
-                        type="text"
-                />
-            </div>
-            <div class="contact__form-field">
-                <label class="contact__form-label" for="message">Message</label>
-                <textarea
-                        class="contact__form-input"
-                        cols="30"
-                        id="message"
-                        name="message"
-                        placeholder="What's Your Message"
-                        required
-                        rows="10"
-                ></textarea>
-            </div>
-            <button class="btn btn--theme contact__btn" type="submit">
-                Submit
-            </button>
-        </form>
+        </div>
+
+        <div class="social-links align-items-center">
+            <a href="https://www.linkedin.com/in/deborahjbalthazar/"><img alt="LinkedIn Icon"
+                                                                          id="social-icon-li"
+                                                                          src="../Images/linkedin.svg"></a>
+            <a href="https://twitter.com/djbulbaczar"><img alt="Twitter Icon" id="social-icon-tw"
+                                                           src="../Images/twitter.svg"></a>
+            <a href="https://www.instagram.com/djbulbaczar/"><img alt="Instagram Icon" id="social-icon-in"
+                                                                  src="../Images/instagram.svg"></a>
+        </div>
+
     </div>
-</div>
+</section>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script crossorigin="anonymous"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
