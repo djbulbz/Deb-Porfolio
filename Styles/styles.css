@@ -214,8 +214,11 @@ button{
 
 .contact__btn {
     width: 30%;
-    padding: 2rem 4rem;
+    padding: 2rem;
     font-size: 1.6rem;
+}
+.contact__text {
+    text-align: left;
 }
 
 @media only screen and (max-width: 37.5em) {
