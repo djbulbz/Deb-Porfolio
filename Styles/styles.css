@@ -1,11 +1,11 @@
 /* Styling for Navbar */
-body{
+body {
     display: block;
     overflow-x: hidden;
     min-width: 300px;
 }
 
-nav{
+nav {
     background-color: white;
 }
 
@@ -13,30 +13,30 @@ nav{
     max-height: 50px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
     color: #683aa4;
 }
 
-nav ul li a{
+nav ul li a {
     color: #a9a9a9;
     font-size: 22px;
     margin: auto 10px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #683aa4;
 }
 
 /* Styling for Hero Section */
-section{
+section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-section h1{
+section h1 {
     text-transform: uppercase;
     font-weight: 900;
     color: #683aa4;
@@ -44,67 +44,73 @@ section h1{
     margin-bottom: 20px;
 }
 
-section p{
+section p {
     font-size: 16px;
     font-weight: 300;
 }
 
-button{
+button {
     max-width: 50%;
     border-radius: 50px !important;
 }
-.hero{margin-top: 5em;}
-.hero .col{
+
+.hero {
+    margin-top: 5em;
+}
+
+.hero .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-.hero .img-col{
+.hero .img-col {
     justify-content: flex-end;
     margin-top: 100px;
 }
+
 #social-icon-li,
 #social-icon-in,
-#social-icon-tw{
+#social-icon-tw {
     width: 5%;
 }
-.hero img{
+
+.hero img {
     max-width: 100%;
     width: 100%;
 }
 
 /* Styling for the cards */
-.hero .card{
+.hero .card {
     box-shadow: 11px 7px 16px #f9f9f9;
     border: 0;
     text-align: center;
 }
 
-.hero .cards .card{
+.hero .cards .card {
     width: 18rem;
 }
 
 /* Styling for Icons if added */
-.hero .icon{
+.hero .icon {
     width: 50px;
     height: 50px;
     margin-bottom: 20px;
 }
 
 /* Styling for the Project Section */
-#projects .projects{
+#projects .projects {
     margin-bottom: 50px;
 }
 
 /* contact section styling */
-#contact{
+#contact {
     text-align: center;
     background-color: #683aa4;
     color: white;
 }
 
-#contact h1{
+#contact h1 {
     text-align: center;
     color: white;
 }
@@ -114,6 +120,7 @@ button{
     /*width: 50%;*/
     /*height: auto;*/
 }
+
 .fig-cap {
     text-align: center;
 }
@@ -122,7 +129,6 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
     padding: 4rem;
-    /*margin-top: 6rem;*/
     max-width: 80rem;
     text-align: right;
     width: 95%;
@@ -217,6 +223,7 @@ button{
     padding: 2rem;
     font-size: 1.6rem;
 }
+
 .contact__text {
     text-align: left;
 }
@@ -226,6 +233,7 @@ button{
         width: 100%;
     }
 }
+
 .footer {
     position: fixed;
     left: 0;
