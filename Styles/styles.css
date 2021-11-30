@@ -241,7 +241,7 @@ button {
     }
 }
 .big{
-    font-size: calc(0.1em + 1.5vw);
+    font-size: calc(0.7em + 1.5vw);
 }
 .footer {
     position: fixed;
