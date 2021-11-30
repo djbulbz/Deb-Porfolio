@@ -243,6 +243,9 @@ button {
 .big{
     font-size: calc(0.7em + 1.5vw);
 }
+.bigger li{
+    font-size: 1.3em;
+}
 .footer {
     position: fixed;
     left: 0;
