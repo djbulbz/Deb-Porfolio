@@ -3,6 +3,7 @@ body {
     display: block;
     overflow-x: hidden;
     min-width: 300px;
+    height: 100%;
     font-family: Oswald,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 h1 {
