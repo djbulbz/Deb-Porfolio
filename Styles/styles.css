@@ -4,11 +4,13 @@ body {
     overflow-x: hidden;
     min-width: 300px;
     height: 100%;
-    font-family: Oswald,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-family: Oswald, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
 h1 {
     font-family: "Roboto", sans-serif;
 }
+
 nav {
     background-color: white;
 }
@@ -16,6 +18,7 @@ nav {
 .navbar-brand img {
     max-height: 50px;
 }
+
 .navbar-brand {
     font-size: 24px;
     text-transform: uppercase;
@@ -236,17 +239,27 @@ button {
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 600px) {
-    .big{
+    .big {
         font-size: 1em !important;
     }
 }
-.big{
+
+.big {
     font-size: calc(0.7em + 1.5vw);
 }
-.bigger li{
+
+.bigger li,
+.heading {
     font-size: 1.3em;
 }
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+}
+
 .footer {
     position: fixed;
     left: 0;
