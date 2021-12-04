@@ -247,7 +247,7 @@ button {
 }
 
 .big {
-    font-size: calc(0.7em + 1.5vw);
+    font-size: calc(0.3em + 1.5vw);
 }
 
 .bigger li,
@@ -259,7 +259,13 @@ button {
     text-align: center;
     font-weight: bold;
 }
-
+#lab-pic {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 800px;
+    padding-right: 100px;
+}
+.grid {width: 100vw;}
 .footer {
     position: fixed;
     left: 0;
