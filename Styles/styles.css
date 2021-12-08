@@ -247,7 +247,7 @@ button {
 }
 
 .big {
-    font-size: calc(0.3em + 1.5vw);
+    font-size: 1.3em;
 }
 
 .bigger li,
@@ -259,13 +259,27 @@ button {
     text-align: center;
     font-weight: bold;
 }
+
 #lab-pic {
     max-width: 100%;
     overflow-x: hidden;
     height: 800px;
     padding-right: 100px;
 }
-.grid {width: 100vw;}
+
+.contact-pic {
+    background-image: url("../Images/lab2.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.grid {
+    width: 100vw;
+}
+
 .footer {
     position: fixed;
     left: 0;
