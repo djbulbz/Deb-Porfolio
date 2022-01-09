@@ -249,7 +249,9 @@ button {
 .big {
     font-size: 1.3em;
 }
-
+.bigger {
+    align-self: start;
+}
 .bigger li,
 .heading {
     font-size: 1.3em;
