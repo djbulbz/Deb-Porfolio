@@ -9,6 +9,7 @@ body {
 ::selection {
     background: #f631a7;
 }
+
 h1 {
     font-family: "Roboto", sans-serif;
 }
@@ -22,12 +23,14 @@ nav {
 }
 
 .navbar-brand {
+    background-image: linear-gradient(to left, #5d2b8c, #3979cb);
+    color: transparent;
+    -webkit-background-clip: text;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
-    color: #683aa4;
 }
-
+.bg-db{background-color: #f1f1f1;}
 nav ul li a {
     color: #a9a9a9;
     font-size: 22px;
@@ -47,7 +50,7 @@ section {
 section h1 {
     text-transform: uppercase;
     font-weight: 900;
-    color: #683aa4;
+    color: #5b52cb;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -89,6 +92,29 @@ button {
 }
 .link-square li {
     color: red;
+}
+/* unvisited link */
+.link-square a:link,.gen-link:link  {
+    color: #2a2a0f;
+}
+
+/* visited link */
+.link-square a:visited,.gen-link:visited {
+    color: #a6a841;
+}
+
+/* mouse over link */
+.link-square a:hover,.gen-link:hover {
+    color: hotpink;
+}
+/* focus over link */
+.link-square a:focus,.gen-link:focus {
+    background: #BAE498;
+}
+
+/* selected link */
+.link-square a:active,.gen-link:active {
+    color: #d3aafe;
 }
 .hero img {
     max-width: 100%;
