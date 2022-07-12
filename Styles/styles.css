@@ -6,6 +6,7 @@ body {
     height: 100%;
     font-family: Oswald, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
 ::selection {
     background: #f631a7;
 }
@@ -30,7 +31,11 @@ nav {
     text-transform: uppercase;
     font-weight: 900;
 }
-.bg-db{background-color: #f1f1f1;}
+
+.bg-db {
+    background-color: #f1f1f1;
+}
+
 nav ul li a {
     color: #a9a9a9;
     font-size: 22px;
@@ -79,43 +84,50 @@ button {
     justify-content: flex-end;
     margin-top: 100px;
 }
-.social-links{
-    bottom:2em;
+
+.social-links {
+    bottom: 2em;
 }
+
 #social-icon-li,
 #social-icon-in,
 #social-icon-tw {
     width: 3.5%;
 }
+
 .link-square {
     list-style: square;
 }
+
 .link-square li {
     color: red;
 }
+
 /* unvisited link */
-.link-square a:link,.gen-link:link  {
+.link-square a:link, .gen-link:link {
     color: #2a2a0f;
 }
 
 /* visited link */
-.link-square a:visited,.gen-link:visited {
+.link-square a:visited, .gen-link:visited {
     color: #a6a841;
 }
 
 /* mouse over link */
-.link-square a:hover,.gen-link:hover {
+.link-square a:hover, .gen-link:hover {
     color: hotpink;
 }
+
 /* focus over link */
-.link-square a:focus,.gen-link:focus {
+.link-square a:focus, .gen-link:focus {
     background: #BAE498;
 }
 
 /* selected link */
-.link-square a:active,.gen-link:active {
+.link-square a:active, .gen-link:active {
     color: #d3aafe;
 }
+
 .hero img {
     max-width: 100%;
     width: 100%;
@@ -284,9 +296,11 @@ button {
 .big {
     font-size: 1.3em;
 }
+
 .bigger {
     align-self: start;
 }
+
 .bigger li,
 .heading {
     font-size: 1.3em;
