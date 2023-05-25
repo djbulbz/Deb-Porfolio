@@ -1,5 +1,6 @@
 /* Styling for Navbar */
 body {
+    background-color: #fcfcfc;
     display: block;
     overflow-x: hidden;
     min-width: 300px;
@@ -24,16 +25,18 @@ nav {
 }
 
 .navbar-brand {
-    background-image: linear-gradient(to left, #5d2b8c, #3979cb);
-    color: transparent;
-    -webkit-background-clip: text;
+    color: #333;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
 }
-
+.rainbow {
+    background-image: linear-gradient(to left, #5d2b8c, #3979cb);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 .bg-db {
-    background-color: #f1f1f1;
+    background-color: #fcfcfc;
 }
 
 nav ul li a {
@@ -45,17 +48,13 @@ nav ul li a {
 nav ul li a:hover {
     color: #683aa4;
 }
-
-/* Styling for Hero Section */
-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+section ul li a {
+    text-decoration: none;
 }
-
 section h1 {
     text-transform: uppercase;
     font-weight: 900;
-    color: #5b52cb;
+    color: #2f2980;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -85,9 +84,6 @@ button {
     margin-top: 100px;
 }
 
-.social-links {
-    bottom: 2em;
-}
 
 #social-icon-li,
 #social-icon-in,
@@ -307,8 +303,13 @@ button {
 }
 
 .heading {
-    text-align: center;
     font-weight: bold;
+}
+.heading a {
+    font-family: cursive;
+    color: #04182a;
+    text-decoration: none;
+
 }
 
 #lab-pic {
@@ -330,14 +331,36 @@ button {
     width: 100vw;
 }
 
+.black-line {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+}
+
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: aliceblue;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+.footer .row {
+    width: 100%;
+    max-width: 100%;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-links a {
+    margin-right: 10px;
+}
+
+
