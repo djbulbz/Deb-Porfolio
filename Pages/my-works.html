@@ -2,179 +2,219 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deborah Balthazar - My Works</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="../Styles/styles.css" rel="stylesheet"/>
-    <link href="../Images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of published works by Deborah Balthazar, science and health writer. Articles from STAT News, Science News, Science News Explores, and more.">
+    <meta name="keywords" content="science journalism, health writing, published articles, portfolio, STAT News, Science News">
+    <meta name="author" content="Deborah Balthazar">
+    <meta property="og:title" content="My Works - Deborah Balthazar">
+    <meta property="og:description" content="Published works in science and health journalism by Deborah Balthazar.">
+    <meta property="og:type" content="website">
+    <title>My Works - Deborah Balthazar</title>
+    <link rel="icon" type="image/jpeg" href="../assets/images/favicon.jpg">
+    <link rel="stylesheet" href="../assets/css/main.css">
 </head>
-<body class="container d-flex flex-column vh-100">
-
-<!-- Navbar -->
-<nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-db">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">Deborah J Balthazar</a>
-        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link active" href="./my-works.html">My Works</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- Navbar End -->
-
-<!-- Hero section -->
-<section class="hero">
-    <div class="container">
-        <div class="col align-items-center">
-
-            <h1>My Work</h1>
-
-        </div>
-        <div class="col">
-            <section><p class="heading"><a
-                href="https://www.statnews.com/staff/deborah-balthazar/"
-                rel="noreferrer noopener" target="_blank">STAT News</a>
-</p>
-                <ul class="bigger link-square">
-                    <li><a
-                        href="https://www.statnews.com/2024/07/22/mass-general-perfusion-lab-heart-transplants/"
-                        rel="noreferrer noopener" target="_blank">At a Mass General Perfusion lab, a push to make more and more hearts viable for transplant</a>
-                    </li> 
-                    <li><a
-                        href="https://www.statnews.com/2024/06/13/placenta-on-a-chip-pregnancy-research/"
-                        rel="noreferrer noopener" target="_blank">With placenta-on-a-chip, researchers hope to gauge how drugs and toxins impact pregnancy</a>
-                    </li>       
-                    <li><a
-                        href="https://www.statnews.com/2024/03/29/human-milk-oligosaccarides-gut-microbiome-immune-boost/"
-                        rel="noreferrer noopener" target="_blank">Why researchers think human milk could repair the gut microbiome and reduce infections</a>
-                    </li>       
-                    <li><a
-                        href="https://www.statnews.com/2024/02/20/phage-therapy-research-antibiotic-resistance/"
-                        rel="noreferrer noopener" target="_blank">Phage therapy: Researchers sharpen another arrow in the quiver against antibiotic resistance</a>
-                    </li>  
-                    <li><a
-                        href="https://www.statnews.com/2023/12/07/ultrasound-3d-bioprinting-inside-tissue-medical-applications/"
-                        rel="noreferrer noopener" target="_blank">In pigs, researchers show ultrasound could be used for 3D printing inside the body</a>
-                    </li>     
-                    <li><a
-                        href="https://www.statnews.com/2024/05/13/genetic-variant-west-african-descendants-adds-cardiovascular-disease-risk/"
-                        rel="noreferrer noopener" target="_blank">Genetic variant common among West African descendants contributes to large cardiovascular disease burden</a>
-            </li>     
-            </ul></section>
-
-            <section>
-                <p class="heading"><a href="https://www.snexplores.org/author/deborah-balthazar" rel="noreferrer noopener" target="_blank">Science News Explores</a></p>
-                <ul class="bigger link-square">
-                    <li><a href="https://www.snexplores.org/article/build-baymax-soft-robotics" rel="noreferrer noopener" target="_blank">Can we build Baymax?</a></li>
-                    <li><a href="https://www.snexplores.org/article/underwater-camera-sound-power-source" rel="noreferrer noopener" target="_blank">Underwater cameras get a new power source - sound!</a></li>
+<body>
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <a href="../index.html" class="nav__brand" aria-label="Deborah J Balthazar - Home">
+                    Deborah J Balthazar
+                </a>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+                
+                <ul class="nav__menu" id="nav-menu">
+                    <li><a href="../index.html" class="nav__link">Home</a></li>
+                    <li><a href="my-works.html" class="nav__link active" aria-current="page">My Works</a></li>
+                    <li><a href="contact.html" class="nav__link">Contact</a></li>
                 </ul>
-                <!-- <hr class="black-line"> -->
-            </section>
-            
+            </div>
+        </nav>
+    </header>
 
-            <section><p class="heading"><a
-                href="https://www.sciencenews.org/author/deborah-balthazar"
-                rel="noreferrer noopener" target="_blank">Science News</a>
-</p>
-                <ul class="bigger link-square">
-                    <li><a
-                        href="https://www.sciencenews.org/article/sonoran-desert-toad-psychedelic-animal-chemistry"
-                        rel="noreferrer noopener" target="_blank">The Sonoran Desert toad can alter your mind -- it's not the only animal</a>
-                    </li> 
-                    <li><a
-                        href="https://www.sciencenews.org/article/these-are-our-favorite-animal-stories-of-2022"
-                        rel="noreferrer noopener" target="_blank">These are our favorite animal stories of 2022</a>
-                    </li>       
-                    <li><a
-                        href="https://www.sciencenews.org/article/metric-system-prefixes-what-to-know"
-                        rel="noreferrer noopener" target="_blank">The metric system is growing. Here's what you need to know</a>
-                    </li>       
-                    <li><a
-                        href="https://www.sciencenews.org/article/pests-book-animals-science"
-                        rel="noreferrer noopener" target="_blank">A new book asks: what makes humans call some animals pests?</a>
-                    </li>  
-                    <li><a
-                        href="https://www.sciencenews.org/article/rats-bop-their-heads-to-the-beat-music"
-                        rel="noreferrer noopener" target="_blank">Rats can bop their heads to the beat</a>
-                    </li>     
-                    <li><a
-                        href="https://www.sciencenews.org/article/aspergillus-fungi-mycotoxins-aflatoxin-food-contamination"
-                        rel="noreferrer noopener" target="_blank">How fungi make potent toxins that can contaminate food</a>
-            </li>
-                    <li><a
-                            href="https://www.sciencenews.org/article/crying-baby-sleep-science"
-                            rel="noreferrer noopener" target="_blank">How to get a crying baby to sleep, according to science</a>
-                        </li>       
-            </ul></section>
-            
-            <section><p class="heading">Science World</p>
-                <ul class="bigger link-square">
-                    <li><a
-                            href="../Files/science_world/p02-07-news.pdf"
-                            rel="noreferrer noopener"
-                            target="_blank">Lightning at sea</a></li>
-                </ul></section>
-            <section><p class="heading">SuperScience</p>
-                <ul class="bigger link-square">
-                    <li><a
-                            href="../Files/scholastic/goingsolar.pdf"
-                            rel="noreferrer noopener"
-                            target="_blank">Going Solar: Why more and more homes and businesses are powered by the sun</a></li>
-                    <li><a
-                            href="../Files/scholastic/jellyfishlake.pdf"
-                            rel="noreferrer noopener"
-                            target="_blank">Where in the World? - Jellyfish Lake</a></li>
-                </ul></section>
-            <section>
-            <p class="heading">Scienceline</p>
-            <ul class="bigger link-square">
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">My Work</h1>
+            </div>
+        </section>
 
-                <li><a
-                    href="https://scienceline.org/2022/09/is-it-safe-to-microwave-plastic-containers/"
-                    rel="noreferrer noopener" target="_blank">Is it safe to microwave plastic containers</a></li>
-                <li><a
-                    href="https://scienceline.org/2022/03/the-mrna-revolution-is-just-getting-started/"
-                    rel="noreferrer noopener" target="_blank">The mrna revolution is just getting started</a></li>
-                <li><a
-                    rel="noreferrer noopener" href="https://scienceline.org/2022/01/todays-gamers-may-be-tomorrows-agricultural-experts/" target="_blank">Today's gamers may be tomorrow's agricultural experts</a></li>
-                <li><a
-                        href="https://scienceline.org/2022/01/mycorrhizal-music-why-fungal-violins-can-fool-the-experts/"
-                        rel="noreferrer noopener" target="_blank">Mycorrhizal
-                    music: Why fungal violins can fool the experts</a></li>
-                <li><a
-                        href="https://scienceline.org/2021/12/scientists-create-ancestry-test-for-your-chocolate-bar/"
-                        rel="noreferrer noopener" target="_blank">Scientists
-                    create ancestry test for your chocolate bar</a></li>
-            </ul>
-            </section>
-            <section><p class="heading">TAPinto Verona/Cedar Grove</p>
+        <section class="container">
+            <article class="work-section">
+                <h2 class="work-section__title">
+                    <a href="https://www.statnews.com/staff/deborah-balthazar/" target="_blank" rel="noopener">STAT News</a>
+                </h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2024/07/22/mass-general-perfusion-lab-heart-transplants/" target="_blank" rel="noopener">
+                            At a Mass General Perfusion lab, a push to make more and more hearts viable for transplant
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2024/06/13/placenta-on-a-chip-pregnancy-research/" target="_blank" rel="noopener">
+                            With placenta-on-a-chip, researchers hope to gauge how drugs and toxins impact pregnancy
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2024/03/29/human-milk-oligosaccarides-gut-microbiome-immune-boost/" target="_blank" rel="noopener">
+                            Why researchers think human milk could repair the gut microbiome and reduce infections
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2024/02/20/phage-therapy-research-antibiotic-resistance/" target="_blank" rel="noopener">
+                            Phage therapy: Researchers sharpen another arrow in the quiver against antibiotic resistance
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2023/12/07/ultrasound-3d-bioprinting-inside-tissue-medical-applications/" target="_blank" rel="noopener">
+                            In pigs, researchers show ultrasound could be used for 3D printing inside the body
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.statnews.com/2024/05/13/genetic-variant-west-african-descendants-adds-cardiovascular-disease-risk/" target="_blank" rel="noopener">
+                            Genetic variant common among West African descendants contributes to large cardiovascular disease burden
+                        </a>
+                    </li>
+                </ul>
+            </article>
 
-                <ul class="bigger link-square">
-                    <li><a
-                            href="https://www.tapinto.net/towns/verona-slash-cedar-grove/sections/education/articles/cedar-grove-parents-protest-masking-of-students-during-heat-wave"
-                            rel="noreferrer noopener"
-                            target="_blank">Cedar Grove Parents Protest Masking of Students
-                        During Heat Wave</a></li>
-                </ul></section>
-<!-- Create ending ul, section tags -->
-            <section><p class="heading">TAPinto West Orange</p>
-                <ul class="bigger link-square">
+            <article class="work-section">
+                <h2 class="work-section__title">
+                    <a href="https://www.snexplores.org/author/deborah-balthazar" target="_blank" rel="noopener">Science News Explores</a>
+                </h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://www.snexplores.org/article/build-baymax-soft-robotics" target="_blank" rel="noopener">
+                            Can we build Baymax?
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.snexplores.org/article/underwater-camera-sound-power-source" target="_blank" rel="noopener">
+                            Underwater cameras get a new power source - sound!
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">
+                    <a href="https://www.sciencenews.org/author/deborah-balthazar" target="_blank" rel="noopener">Science News</a>
+                </h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/sonoran-desert-toad-psychedelic-animal-chemistry" target="_blank" rel="noopener">
+                            The Sonoran Desert toad can alter your mind -- it's not the only animal
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/these-are-our-favorite-animal-stories-of-2022" target="_blank" rel="noopener">
+                            These are our favorite animal stories of 2022
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/metric-system-prefixes-what-to-know" target="_blank" rel="noopener">
+                            The metric system is growing. Here's what you need to know
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/pests-book-animals-science" target="_blank" rel="noopener">
+                            A new book asks: what makes humans call some animals pests?
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/rats-bop-their-heads-to-the-beat-music" target="_blank" rel="noopener">
+                            Rats can bop their heads to the beat
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/aspergillus-fungi-mycotoxins-aflatoxin-food-contamination" target="_blank" rel="noopener">
+                            How fungi make potent toxins that can contaminate food
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://www.sciencenews.org/article/crying-baby-sleep-science" target="_blank" rel="noopener">
+                            How to get a crying baby to sleep, according to science
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">Science World</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="../assets/documents/science_world/p02-07-news.pdf" target="_blank" rel="noopener">
+                            Lightning at sea
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">SuperScience</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="../assets/documents/scholastic/goingsolar.pdf" target="_blank" rel="noopener">
+                            Going Solar: Why more and more homes and businesses are powered by the sun
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="../assets/documents/scholastic/jellyfishlake.pdf" target="_blank" rel="noopener">
+                            Where in the World? - Jellyfish Lake
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">Scienceline</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://scienceline.org/2022/09/is-it-safe-to-microwave-plastic-containers/" target="_blank" rel="noopener">
+                            Is it safe to microwave plastic containers?
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://scienceline.org/2022/03/the-mrna-revolution-is-just-getting-started/" target="_blank" rel="noopener">
+                            The mRNA revolution is just getting started
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://scienceline.org/2022/01/todays-gamers-may-be-tomorrows-agricultural-experts/" target="_blank" rel="noopener">
+                            Today's gamers may be tomorrow's agricultural experts
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://scienceline.org/2022/01/mycorrhizal-music-why-fungal-violins-can-fool-the-experts/" target="_blank" rel="noopener">
+                            Mycorrhizal music: Why fungal violins can fool the experts
+                        </a>
+                    </li>
+                    <li class="work-item">
+                        <a href="https://scienceline.org/2021/12/scientists-create-ancestry-test-for-your-chocolate-bar/" target="_blank" rel="noopener">
+                            Scientists create ancestry test for your chocolate bar
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">TAPinto Verona/Cedar Grove</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://www.tapinto.net/towns/verona-slash-cedar-grove/sections/education/articles/cedar-grove-parents-protest-masking-of-students-during-heat-wave" target="_blank" rel="noopener">
+                            Cedar Grove Parents Protest Masking of Students During Heat Wave
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="work-section">
+                <h2 class="work-section__title">TAPinto West Orange</h2>
+                <ul class="work-list">
                     <li><a
                             href="https://www.tapinto.net/towns/west-orange/sections/health-and-wellness/articles/the-doctors-are-in-west-orange-schools-deemed-safe"
                             rel="noreferrer noopener" target="_blank">The Doctors Are In: West Orange Schools Deemed
@@ -228,52 +268,58 @@
                             rel="noreferrer noopener"
                             target="_blank">Java’s Compost in West Orange Gives Food a “Chance at
                         Second Life”</a></li>
-                </ul></section>
-            <section><p class="heading">Caldwell University Blog</p>
-                <ul class="bigger link-square">
+                </ul>
+            </article>
 
-                    <li><a
-                            href="https://www.caldwell.edu/featured-news/science-students-learn-new-research-skills-in-internships"
-                            rel="noreferrer noopener" target="_blank">Science
-                            Students Learn New Research Skills in Internships</a></li>
-                        </ul></section>
-                        <section><p class="heading">Center for a Livable Future blog</p>
-                            <ul class="bigger link-square">
-                                <li><a
-                                        aria-label="How the Bill Emerson Act Can Reduce Wasted Food (opens in a new tab)"
-                                        href="http://web.archive.org/web/20170328180942/http://livablefutureblog.com/2015/09/bill-emerson-act-wasted-food"
-                                        rel="noreferrer noopener"
-                                        target="_blank">How the Bill Emerson Act Can Reduce Wasted Food</a></li>
-                            </ul></section>
+            <article class="work-section">
+                <h2 class="work-section__title">Caldwell University Blog</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="https://www.caldwell.edu/featured-news/science-students-learn-new-research-skills-in-internships" target="_blank" rel="noopener">
+                            Science Students Learn New Research Skills in Internships
+                        </a>
+                    </li>
+                </ul>
+            </article>
 
+            <article class="work-section">
+                <h2 class="work-section__title">Center for a Livable Future Blog</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <a href="http://web.archive.org/web/20170328180942/http://livablefutureblog.com/2015/09/bill-emerson-act-wasted-food" target="_blank" rel="noopener">
+                            How the Bill Emerson Act Can Reduce Wasted Food
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <nav class="social-links" aria-label="Social media links">
+                    <a href="https://www.linkedin.com/in/deborahjbalthazar/" class="social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/djbulbaczar" class="social-link" aria-label="Twitter profile" target="_blank" rel="noopener">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/djbulbaczar/" class="social-link" aria-label="Instagram profile" target="_blank" rel="noopener">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                </nav>
+                <p class="footer__copyright">&copy; <span id="current-year">2025</span>, Deborah Balthazar ♡</p>
+            </div>
         </div>
-    </div>
-</section>
-<footer class="footer page-footer font-small mt-auto">
-    <div class="row">
-        <span>&copy; 2024, Deborah Balthazar ♡</span>
-    </div>
-    <div class="row">
-        <div class="social-links align-items-center">
-            <a href="https://www.linkedin.com/in/deborahjbalthazar/">
-                <img alt="LinkedIn Icon" id="social-icon-li" src="../Images/linkedin.svg" width="20" height="20">
-            </a>
-            <a href="https://twitter.com/djbulbaczar">
-                <img alt="Twitter Icon" id="social-icon-tw" src="../Images/twitter.svg" width="20" height="20">
-            </a>
-            <a href="https://www.instagram.com/djbulbaczar/">
-                <img alt="Instagram Icon" id="social-icon-in" src="../Images/instagram.svg" width="20" height="20">
-            </a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
-
-
-
-
